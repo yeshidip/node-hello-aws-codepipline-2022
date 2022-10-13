@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello \n welcome to AWS - Deloitte'
+  const msg = 'Hello \n welcome to AWS - Deloitte\n How you Doin!'
   res.end(msg);
 });
 
